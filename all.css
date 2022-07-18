@@ -11641,6 +11641,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -11659,6 +11663,9 @@ button{
 	outline: none!important;
 }
 
+.btn-rd{
+	border-radius: 40px;
+}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -11768,7 +11775,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:358px;
 }
 .btn-style{
-	width:81.17%;
+	width:100%;
 	padding-top:4px;
 	padding-bottom:4px;
 	border-radius:21px 21px 21px 21px;
