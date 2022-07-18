@@ -11307,6 +11307,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 	position:relative;
 }
 
+
+/* Sizes */
+
+.bloc-sm{
+	padding:20px;
+}
+
 /* = Full Width Blocs 
 -------------------------------------------------------------- */
 
@@ -11816,6 +11823,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .row-5-style{
 	width:55.76%;
 }
+.html-widget-style{
+	height:753px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -11936,6 +11946,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.mt-md-0{
 	}
 	.mt-md-4{
+	}
+	.html-widget-style{
+		height:669px;
 	}
 	
 }
