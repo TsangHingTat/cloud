@@ -11869,6 +11869,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#EFEFEF!important;
 }
 
+/* Button colour styles */
+
+.btn-isabelline{
+	background:#EFEFEF;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-isabelline:hover{
+	background:#bfbfbf!important;
+	color:rgba(0,0,0,.5)!important;
+}
+
 /* Link colour styles */
 
 .ltc-isabelline{
