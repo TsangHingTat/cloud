@@ -12004,7 +12004,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 575px){
 	.img-style{
-		width:126px;
+		width:216px;
 	}
 	.h2-style{
 		font-size:25px;
@@ -12037,6 +12037,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-24-style{
 		width:100%;
+	}
+	.text-span-style{
+		font-weight:bold;
+		font-style:italic;
+		text-decoration:underline;
 	}
 	
 	/* Mobile Text Margin Offsets */
