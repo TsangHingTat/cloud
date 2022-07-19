@@ -224,4 +224,22 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>http://cloud.alwaysboringstudio.site/vnc01160828/</loc>
+	<lastmod>2022-07-20</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://cloud.alwaysboringstudio.site/img/Screenshot%202022-07-20%20at%201.25.37%20AM.png</image:loc>
+	<image:title>Screenshot 2022 07-20 at 1.25.37 AM</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://cloud.alwaysboringstudio.site/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://cloud.alwaysboringstudio.site/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>

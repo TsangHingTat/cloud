@@ -11641,6 +11641,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -11665,6 +11668,12 @@ button{
 
 .btn-rd{
 	border-radius: 40px;
+}
+.btn-clean{
+	border:1px solid rgba(0,0,0,.08);
+	border-bottom-color:rgba(0,0,0,.1);
+	text-shadow:0 1px 0 rgba(0,0,1,.1);
+	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
 }
 .a-block{
 	width:100%;
@@ -11742,7 +11751,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .img-style{
-	width:972px;
+	width:796px;
 	border-radius:0px 0px 0px 0px;
 }
 .img-2-style{
@@ -11838,6 +11847,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .html-widget-0-style{
 	height:835px;
+}
+.text-span-style{
+	font-style:italic;
+	font-weight:bold;
+	text-decoration:none;
 }
 
 /* = Colour
