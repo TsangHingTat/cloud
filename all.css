@@ -11314,6 +11314,37 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px;
 }
 
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bloc-fill-screen > .container{
+	align-self: flex-middle;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc-fill-screen > .container > .row{
+	flex-grow: 1;
+	align-self: center;
+	width:100%;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	flex-grow: 0;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	align-self: flex-start;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	align-self: flex-end;
+}
+
 /* = Full Width Blocs 
 -------------------------------------------------------------- */
 
@@ -11770,7 +11801,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-style{
 	width:32.8%;
 	font-weight:normal;
-	font-size:15px;
+	font-size:20px;
 	line-height:10px;
 }
 .h2-style{
@@ -11886,6 +11917,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#EFEFEF!important;
 }
 .ltc-isabelline:hover{
+	color:#bfbfbf!important;
+}
+.ltc-isabelline-2{
+	color:#EFEFEF!important;
+}
+.ltc-isabelline-2:hover{
 	color:#bfbfbf!important;
 }
 
@@ -12059,6 +12096,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.mg-sm-xs{
 		margin-top:10px;
 		margin-bottom:5px;
+	}
+		.mg-clear-xs{
+		margin:0;
 	}
 	
 }
