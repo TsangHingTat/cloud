@@ -11882,7 +11882,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .text-span-style{
 	font-style:italic;
 	font-weight:bold;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 /* = Colour
