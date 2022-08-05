@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MDM.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>699B36BC639C6049332FD5D3AFC000E33930A654</string>
+				<key>dateExpires</key>
+				<string>2/8/2023</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>UGQBX3P3M8.alwyasboringstudio.site.MDM</string>
+				<key>com.apple.developer.networking.HotspotConfiguration</key>
+				<true/>
+				<key>com.apple.developer.networking.networkextension</key>
+				<array/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>UGQBX3P3M8</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>MDM.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>3a3998a8-e0de-40e3-b193-94c42b8d120e</string>
+				<key>dateExpires</key>
+				<string>5/8/2023</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: alwyasboringstudio.site.MDM</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>UGQBX3P3M8</string>
+				<key>name</key>
+				<string>Hing Tat Tsang</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
